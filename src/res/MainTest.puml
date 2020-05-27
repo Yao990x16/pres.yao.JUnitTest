@@ -1,0 +1,16 @@
+@startuml
+start
+:输入测试用例x,y,z;
+if((x<2)&&(z>5)) then(yes(T1) b)
+:x++;
+else(a no(F1))
+:x--;
+endif
+if((y==3)||(z<8)) then(yes(T2) d)
+:y++;
+else(c no(F2))
+:y--;
+endif
+:x+y+z;
+end
+@enduml
